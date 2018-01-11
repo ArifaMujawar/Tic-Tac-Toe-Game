@@ -1,0 +1,108 @@
+.container-fluid{
+   background-image: url("https://thumbs.dreamstime.com/b/tic-tac-toe-background-detail-squared-paper-37750366.jpg");
+   text-align:center;
+ 
+  margin :1em;
+  background-size: cover;
+}
+h2{
+  text-align:center;
+    font:40px arial italic ;
+    color: #333300;
+  font-weight:bold;
+}
+#panel{
+   display: inline-block;
+  text-align:center;
+  margin:3em;
+ 
+  
+}
+
+.btn btn-primary{
+  text-align:center;
+    margin: 0px;
+    padding:4px;
+}
+
+span{
+  padding:10px;
+   margin: 10px;
+   width: 100px;
+  height:100px;
+  border-radius: 15px;
+
+}
+hr { 
+    margin:0px;
+    width:350px;
+    display: block;
+    border-style: bold;
+    border-color:black;
+    border-width: 3px;
+} 
+.verticalLine {
+  border-left: thick solid #000000;
+
+}
+
+
+#startBtn{
+  text-align:center;
+  margin: 30px;
+  padding: 10px;
+  border-radius: 35px;
+  background:#6699ff;
+  position:relative;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+   
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+.modal-content #res{
+  font-family: "Times New Roman", Times, serif;
+  font-style:italic;
+  font-size: 100%;
+  font-weight: bold;
+  color:#3366cc;
+}
+ 
+/** 
+notebook:http://www.powerpointhintergrund.com/download/notebook-background-blank-squared-notebook-sheet-paper-background--6857
+tictac:https://thumbs.dreamstime.com/z/tic-tac-toe-background-detail-squared-paper-37750366.jpg
+
+ */
